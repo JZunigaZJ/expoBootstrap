@@ -3,6 +3,7 @@
 :root {
     --color-primary: #6a11cb;
     --color-secondary: #2575fc;
+    --gray: #505050;
     --spacing-sm: 15px;
     --spacing-md: 25px;
     --spacing-lg: 40px;
@@ -30,14 +31,17 @@ header {
     text-align: left;
     margin-bottom: var(--spacing-md);
     padding: var(--spacing-md);
-
-    color: rgb(42, 224, 200);
-
-    color: rgb(105, 105, 105);
-
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: var(--gray);
     font-weight: 500;
     background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
 }
 
 /* Sistema de grilla base (mobile first) */
@@ -53,6 +57,16 @@ header {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
+}
+
+.grid-item a{
+    background-color: #094bac;
+    border: none;
+}
+
+.grid-item a:hover{
+    background-color: #2d72da;
+    border: none;
 }
 
 .grid-item:hover {
