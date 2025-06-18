@@ -1,5 +1,6 @@
 :root{
     --gis: #919191;
+<<<<<<< HEAD
     --rojo: #E33500;
     --naranja: #EE682F;
     --amarillo: #e7b931;
@@ -7,6 +8,14 @@
     --celeste: #2197ca;
     --azul: #1955b9;
     --negro: #252525;
+=======
+
+    --negro: #252525;
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+>>>>>>> origin/Manfred
 }
 
 .nav-bnt{
@@ -18,52 +27,18 @@
     font-size: 14px;
 }
 
-.nav-btn:nth-child(1){
-    background-color: var(--gis);
-    color: #fff;
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--gris);
+    transition: color 0.3s;
+}
 
-}
-.nav-btn:nth-child(2){
-    border-bottom: 6px solid var(--rojo);
-}
-.nav-btn:nth-child(2):hover{
-    background-color: var(--rojo);
-    color: #fff;
-}
-.nav-btn:nth-child(3){
-    border-bottom: 6px solid var(--naranja);
-}
-.nav-btn:nth-child(3):hover{
-    background-color: var(--naranja);
-    color: #fff;
-}
-.nav-btn:nth-child(4){
-    border-bottom: 6px solid var(--amarillo);
-}
-.nav-btn:nth-child(4):hover{
-    background-color: var(--amarillo);
-    color: #fff;
-}
-.nav-btn:nth-child(5){
-    border-bottom: 6px solid var(--verde);
-}
-.nav-btn:nth-child(5):hover{
-    background-color: var(--verde);
-    color: #fff;
-}
-.nav-btn:nth-child(6){
-    border-bottom: 6px solid var(--celeste);
-}
-.nav-btn:nth-child(6):hover{
-    background-color: var(--celeste);
-    color: #fff;
-}
-.nav-btn:nth-child(7){
-    border-bottom: 6px solid var(--azul);
-}
-.nav-btn:nth-child(7):hover{
-    background-color: var(--azul);
-    color: #fff;
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+    color: var(--negro);
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .enterese{
