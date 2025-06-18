@@ -32,11 +32,11 @@ header {
     text-align: left;
     margin-bottom: var(--spacing-md);
     padding: var(--spacing-md);
-<<<<<<< HEAD
+
     color: rgb(42, 224, 200);
-=======
+
     color: rgb(105, 105, 105);
->>>>>>> origin/Manfred
+
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-weight: 500;
     background-color: rgb(240, 58, 58);
