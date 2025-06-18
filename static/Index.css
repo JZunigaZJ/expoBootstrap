@@ -28,12 +28,10 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: left;
     margin-bottom: var(--spacing-md);
     padding: var(--spacing-md);
-    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
-    color: white;
-    border-radius: 10px;
+    color: rgb(42, 224, 200);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -120,7 +118,7 @@ Solución del ejercicio 1: */
 
 @media (min-width: 992px) {
     .grid-system {
-        grid-template-columns: repeat(4, 1fr); /* columnas*/ 
+        grid-template-columns: repeat(3, 1fr); /* columnas*/ 
     }
 
     .grid-item {
@@ -162,7 +160,6 @@ Solución del ejercicio 1: */
     }
 
     header {
-        background: linear-gradient(135deg, #3b0dab, #1a73e8);
         color: white;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
     }
