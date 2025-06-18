@@ -1,0 +1,75 @@
+:root{
+    --gis: #919191;
+
+    --negro: #252525;
+}
+
+nav{
+    background-color: rgb(240, 58, 58);
+}
+
+.nav-bnt{
+    height: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: var(--gris);
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+    color: var(--negro);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.enterese{
+    background-color: var(--negro);
+    border-radius: 10px;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.enterese header{
+    min-height: 325px;
+    background-image: url(../css/imgs/imagenPokemon\ 1.png);
+    background-size: cover;
+}
+
+.megaevolucion{
+    background-color: var(--azul);
+    border-radius: 10px;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.megaevolucion header{
+    min-height: 160px;
+    background-image: url(../css/imgs/imagenPokemon\ 2.png);
+    background-size: cover;
+}
+
+.naic{
+    background-color: var(--verde);
+    border-radius: 10px;
+    padding: 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.naic header{
+    min-height: 160px;
+    background-image: url(../css/imgs/imagenPokemon\ 3.png);
+    background-size: cover;
+}
