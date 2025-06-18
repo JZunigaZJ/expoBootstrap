@@ -24,8 +24,6 @@ body {
 .containerNav {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(240, 58, 58);
-
 }
 
 header {
@@ -39,11 +37,7 @@ header {
 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-weight: 500;
-    background-color: rgb(240, 58, 58);
-}
-
-header.container{
-    background-color: rgb(240, 58, 58);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Sistema de grilla base (mobile first) */
