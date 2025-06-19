@@ -1,3 +1,13 @@
 .carousel-inner{
     border-radius: 10px;
 }
+
+.btn{
+    background-color: #094bac;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #2d72da;
+    border: none;
+}

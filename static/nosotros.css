@@ -1,13 +1,13 @@
-.contenedorContactos .grid-item {
+.contenedorNosotros .grid-item {
     transition: none;
 }
 
-.contenedorContactos .grid-item:hover {
+.contenedorNosotros .grid-item:hover {
     transform: none;
     box-shadow: none;
     cursor: default;
 }
 
-.contenedorContactos h3{
+.contenedorNosotros h3{
     color: #094bac !important;
 }
