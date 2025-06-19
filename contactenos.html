@@ -1,103 +1,90 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Contáctenos</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f7fafa;
-      margin: 0;
-      padding: 0;
-    }
-    .container {
-      padding: 20px;
-    }
-    .header {
-      background: #d0f3ef;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-    .header-text {
-      flex: 1;
-    }
-    .header h2 {
-      color: #007a5e;
-      margin: 0;
-    }
-    .cards {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 30px;
-      flex-wrap: wrap;
-    }
-    .card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      width: 30%;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      min-width: 280px;
-      margin-bottom: 20px;
-    }
-    .card h3 {
-      margin-top: 0;
-    }
-    .icon {
-      font-size: 24px;
-      margin-right: 8px;
-      vertical-align: middle;
-    }
-    .phone {
-      font-weight: bold;
-      font-size: 18px;
-      color: #cc0000;
-    }
-    .available {
-      font-size: 14px;
-      color: #cc0000;
-      margin-top: 5px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <link rel="stylesheet" type="text/css" href="static/index.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
 </head>
+
 <body>
+  <div class="container">
+    <header>
+      <div style="justify-content: space-between; display: flex;">
+        <div style="display: flex;">
+          <img class="logo" src="static/images/logo.png" alt="logo" />
+          <h2 style="margin: 25px 0 0 20px; color: #094bac;">Luxury Living</h2>
+        </div>
 
-<div class="container">
+        <div style="margin-top: 25px;">
+          <img class="facebook" src="static/images/facebook (3).png" alt="facebook" />
+          <img class="intagram" src="static/images/logotipo-de-instagram.png" alt="intagram" />
+          <img class="tiktok" src="static/images/tik-tok.png" alt="tiktok" />
+        </div>
+      </div>
 
-  <div class="header">
-    <div class="header-text">
-      <h2>Comuníquese con nosotros</h2>
-      <p>Consulte por nuestros productos o servicios y con gusto le asesoramos para el desarrollo de sus proyectos personales y empresariales.</p>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-nav w-100 justify-content-star">
+            <a class="nav-item nav-link mx-lg-3 mx-1" href="index.html">Inicio</a>
+            <a class="nav-item nav-link mx-lg-3 mx-1" href="registro.html">Registro</a>
+            <a class="nav-item nav-link mx-lg-3 mx-1" href="contactenos.html">Contacto</a>
+            <a class="nav-item nav-link mx-lg-3 mx-1" href="nosotros.html">Nosotros</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h1>Contáctenos</h1>
+    <p>Consulte por nuestros productos o servicios y con gusto le asesoramos para el desarrollo de sus proyectos.</p>
+    <br />
+
+    <div class="grid-system">
+      <div class="grid-item">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3>💳 Tarjeta Débito</h3>
+            <p>Si desea reportar algún inconveniente con su tarjeta, solicitar ayuda en su uso o bloquearla por robo o
+              pérdida, comuníquese al:</p>
+            <p class="phone">📞 2437-1000</p>
+            <p class="available">⏰ Disponible 24/7</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3>💳 Tarjeta de Crédito</h3>
+            <p>Si desea reportar el robo o extravío de su tarjeta, realizar consultas y gestiones, contáctenos al:</p>
+            <p class="phone">📞 2437-1000</p>
+            <p class="available">⏰ Disponible 24/7</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-item">
+        <div class="card shadow">
+          <div class="card-body">
+            <h3>❓ Soporte Canales Digitales</h3>
+            <p>Si requiere soporte con el uso o acceso a los canales digitales, contáctenos al:</p>
+            <p class="phone">📞 2437-1000</p>
+            <p class="available">⏰ Disponible 24/7</p>
+          </div>
+        </div>
+      </div>
     </div>
-    <img src="data:image/jpeg;base64,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">
+
+    <footer>
+      <p>Cambiar el tamaño de la ventana para ver cómo los media queries modifican la grilla.</p>
+      <p>Rote el dispositivo para ver cambios en orientación.</p>
+    </footer>
   </div>
 
-  <div class="cards">
-    <div class="card">
-      <h3>💳 Tarjeta Débito</h3>
-      <p>Si desea reportar algún inconveniente con su tarjeta, solicitar ayuda en su uso o bloquear su Tarjeta de Débito por robo o pérdida, comuníquese al:</p>
-      <p class="phone">📞 2437-1000</p>
-      <p class="available">⏰ Habilitado las 24 horas.</p>
-    </div>
-
-    <div class="card">
-      <h3>💳 Tarjeta de Crédito</h3>
-      <p>Si desea reportar el robo o extravío de su tarjeta, realizar consultas y gestiones sobre su Tarjeta de Crédito, contáctenos al:</p>
-      <p class="phone">📞 2437-1000</p>
-      <p class="available">⏰ Habilitado las 24 horas.</p>
-    </div>
-
-    <div class="card">
-      <h3>❓ Soporte Canales Digitales</h3>
-      <p>Si requiere soporte con el uso o acceso a los canales digitales, contáctenos al:</p>
-      <p class="phone">📞 2437-1000</p>
-      <p class="available">⏰ Habilitado las 24 horas.</p>
-    </div>
-  </div>
-
-</div>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

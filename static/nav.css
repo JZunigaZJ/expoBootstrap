@@ -1,6 +1,5 @@
-:root{
+:root {
     --gis: #919191;
-<<<<<<< HEAD
     --rojo: #E33500;
     --naranja: #EE682F;
     --amarillo: #e7b931;
@@ -8,18 +7,10 @@
     --celeste: #2197ca;
     --azul: #1955b9;
     --negro: #252525;
-=======
-
-    --negro: #252525;
 }
 
-nav{
-<<<<<<< HEAD
-    background-color: rgb(255, 255, 255);
->>>>>>> origin/Manfred
-=======
-    background-color: rgb(240, 58, 58);
->>>>>>> origin/Manfred
+nav {
+    background-color: rgb(255, 255, 255)
 }
 
 .nav-bnt{
