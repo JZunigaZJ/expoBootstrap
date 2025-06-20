@@ -2,12 +2,22 @@
     border-radius: 10px;
 }
 
-.btn{
-    background-color: #094bac;
-    border: none;
+.sidebar {
+background-color: #f8f9fa;
+padding: 20px;
+border-left: 1px solid #ddd;
 }
 
-.btn:hover{
-    background-color: #2d72da;
-    border: none;
+.sidebar img {
+width: 100%;
+border-radius: 50%;
+max-width: 150px;
+margin-bottom: 10px;
+}
+
+.btn-contact {
+background-color: #094bac !important;
+color: white !important;
+font-weight: bold !important;
+margin-bottom: 15px !important; 
 }
